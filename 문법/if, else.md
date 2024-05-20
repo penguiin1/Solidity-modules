@@ -25,8 +25,8 @@ if (조건1) {
     // 위의 모든 조건이 거짓일 때 실행되는 코드
 }
 ```
-
-#### 예제 코드
+<br><br>
+## 예제 코드
 ```solidity
 // SPDX-License-Identifier: MIT
 pragma solidity ^0.8.24;
@@ -92,3 +92,9 @@ function ternary(uint256 _x) public pure returns (uint256) {
 이 코드에서는 삼항 연산자(ternary operator)를 사용하여 주석 처리된 동일한 논리의 코드보다 간결하게 작성했습니다.
 삼항 연산자는 ?와 :를 사용하여 if-else 문을 축약하여 작성하는 방식입니다.<br>
 코드의 조건문은 _x < 10 조건이 참이면 1을 반환하고, 거짓이면 2를 반환합니다.
+<br><br>
+## Remix에서 실습
+1. Remix에서 새로운 solidity 파일 생성해서 예제 코드를 복사 붙여넣기 합니다.
+2. 예제 코드를 compile 후 deploy합니다.
+3. 아래 버튼들이 제대로 동작하는지 확인합니다.<br>
+<img src="https://github.com/Joon2000/Solidity-modules/blob/main/images/If%3Aelse%20button.png" width="250px" height="300px" title="if/else" alt="if/else"></img><br/>
