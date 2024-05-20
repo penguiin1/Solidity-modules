@@ -97,4 +97,4 @@ function ternary(uint256 _x) public pure returns (uint256) {
 1. Remix에서 새로운 solidity 파일 생성해서 예제 코드를 복사 붙여넣기 합니다.
 2. 예제 코드를 compile 후 deploy합니다.
 3. 아래 버튼들이 제대로 동작하는지 확인합니다.<br>
-<img src="https://github.com/Joon2000/Solidity-modules/blob/main/images/If%3Aelse%20button.png" width="250px" height="300px" title="if/else" alt="if/else"></img><br/>
+<img src="https://github.com/Joon2000/Solidity-modules/blob/main/images/if-else/If%3Aelse%20button.png" width="250px" height="300px" title="if/else" alt="if/else"></img><br/>
